@@ -11,14 +11,14 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>SmashFramework</PackageId>
+    <PackageId>KatziFramework</PackageId>
     <Authors>AaronoLW</Authors>
     <Version>2.2.4</Version>
     <Copyright>Copyright 2026 AaronoLW</Copyright>
-    <PackageProjectUrl>https://github.com/AaronoLW/SmashFramework</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/AaronoLW/SmashFramework.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/KatziIndustries/KatziFramework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/KatziIndustries/KatziFramework.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Description>A very simple framework for making games/graphical applications built on top of SDL3</Description>
+    <Description>A fork of the SmashFramework with better integration into the *Katzi ecosystem*</Description>
     <IsAotCompatible>true</IsAotCompatible>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>

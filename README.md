@@ -1,11 +1,11 @@
-# SmashFramework
+# KatziFramework
 
-A very simple framework for making games/graphical applications built on top of SDL3
+A fork of the SmashFramework with better integration into the *Katzi ecosystem*
 
 ## Adding to your project
-The SmashFramework is available on NuGet and can be installed using:
+The KatziFramework is available on NuGet and can be installed using:
 ```
-dotnet add package SmashFramework
+dotnet add package KatziFramework
 ```
 
 ## Examples
