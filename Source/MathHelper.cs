@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace SmashFramework;
+namespace Katzi.Framework;
 
 public static class MathHelper
 {

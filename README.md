@@ -12,11 +12,11 @@ dotnet add package KatziFramework
 This example creates a basic window and renders a red rectangle in the middle of it
 ```
 using SDL3;
-using SmashFramework;
+using Katzi.Framework;
 
-Smash.Init();
+KatziFramework.Init();
 
-Window window = new("SmashFramework example", 800, 600, WindowFlag.Resizable);
+Window window = new("KatziFramework example", 800, 600, WindowFlag.Resizable);
 Renderer renderer = new(window);
 
 bool running = true;
@@ -41,5 +41,5 @@ while (running)
     renderer.Present();
 }
 
-Smash.Quit();
+KatziFramework.Quit();
 ```

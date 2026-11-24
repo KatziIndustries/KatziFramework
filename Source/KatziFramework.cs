@@ -1,8 +1,8 @@
 using SDL3;
 
-namespace SmashFramework;
+namespace Katzi.Framework;
 
-public static class Smash
+public static class KatziFramework
 {
     /// <summary>
     /// Gets the current value of the hight resolution counter.

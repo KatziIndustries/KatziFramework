@@ -1,4 +1,4 @@
-namespace SmashFramework;
+namespace Katzi.Framework;
 
 public enum WindowFlag : ulong
 {

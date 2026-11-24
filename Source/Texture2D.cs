@@ -1,7 +1,7 @@
 using System.Numerics;
 using SDL3;
 
-namespace SmashFramework;
+namespace Katzi.Framework;
 
 public class Texture2D : IDisposable, IAsset
 {

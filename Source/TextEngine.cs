@@ -1,5 +1,6 @@
 using SDL3;
-using SmashFramework;
+
+namespace Katzi.Framework;
 
 internal class TextEngine(Renderer renderer) : IDisposable
 {

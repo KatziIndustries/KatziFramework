@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace SmashFramework;
+namespace Katzi.Framework;
 
 public class TextureRegion(string baseTextureName, int x, int y, int width, int height)
 {

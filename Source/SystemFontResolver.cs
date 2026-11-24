@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using Microsoft.Win32;
 
-namespace SmashFramework;
+namespace Katzi.Framework;
 
 /// <summary>
 /// Helper class to get absolute font paths from a font name

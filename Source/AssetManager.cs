@@ -1,6 +1,6 @@
 using SDL3;
 
-namespace SmashFramework;
+namespace Katzi.Framework;
 
 public static class AssetManager
 {
