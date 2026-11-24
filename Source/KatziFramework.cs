@@ -15,7 +15,7 @@ public static class KatziFramework
     /// </summary>
     public static ulong PerformanceFrequency => SDL.GetPerformanceFrequency();
 
-    public static bool Init()
+    public static void Init()
     {
         try
         {
@@ -41,14 +41,14 @@ public static class KatziFramework
             {
                 int result = error.Pull();
 
-                if (result == 0)
+                if (result == 1)
                     running = false;
+
+                Thread.Sleep(16);
             }
 
-            return false;
+            throw new Exception("The KatziFramework failed to initialize");
         }
-
-        return true;
     }
 
     public static void Quit()
